@@ -22,7 +22,7 @@ The focus was on clean component structure, scoped styling, responsive layout, a
 
 ## Folder Structure
 
-
+```text
 src/
 ├── components/
 │   ├── Navbar/
@@ -34,9 +34,7 @@ src/
 ├── index.css
 └── main.jsx
 
-
-
-Copy code
+```
 
 Each component is placed in its own folder with co-located styles for clarity and maintainability.
 
@@ -58,13 +56,11 @@ Add subtle scroll-based animations using Intersection Observer
 
 Implement dark mode using CSS variables
 
-Copy code
-
----
 
 ## After fixing, do THIS
 
-
+```bash
 git add README.md
 git commit -m "docs: finalize project README"
 git push
+```
