@@ -1,16 +1,67 @@
-# React + Vite
+# Sammaut LLC Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, responsive business landing page built with React and Vite, and deployed on Vercel.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Tech Stack
+- React
+- Vite
+- CSS Modules
+- Vercel (deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Overview
+This project is a static landing page designed for a business website.  
+The focus was on clean component structure, scoped styling, responsive layout, and a simple production-ready setup without unnecessary complexity.
 
-## Expanding the ESLint configuration
+## Key Decisions
+- **React + Vite**: Chosen for fast development and minimal configuration. Next.js was not used since server-side rendering and routing were not required.
+- **CSS Modules**: Used for component-scoped styles without introducing external styling dependencies.
+- **Vercel**: Used for Git-based deployment with automatic builds and HTTPS support.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+src/
+├── components/
+│ ├── Navbar/
+│ ├── Hero/
+│ ├── Features/
+│ ├── CTA/
+│ └── Footer/
+├── App.jsx
+├── index.css
+└── main.jsx
+
+Each component has its own folder with co-located styles for clarity and maintainability.
+
+## Build & Verification
+The project was built locally using:
+```bash
+npm run build
+The build completed successfully without errors.
+The layout was manually verified on desktop, tablet, and mobile screen sizes.
+
+Deployment
+
+The project is deployed on Vercel using Git-based automatic deployment.
+Any push to the main branch triggers a new production build.
+
+Future Improvements
+
+Add a contact form using EmailJS without a backend
+
+Add subtle scroll-based animations using Intersection Observer
+
+Implement dark mode using CSS variables
+
+
+---
+
+## After pasting this README, do THIS
+
+Run these commands:
+
+```bash
+git add README.md
+git commit -m "docs: add project README"
+git push
