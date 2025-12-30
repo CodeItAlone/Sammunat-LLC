@@ -3,7 +3,7 @@
 A professional, responsive business landing page built with React and Vite, and deployed on Vercel.
 
 ## Live Demo
-
+https://sammunat-llc-landing-ten.vercel.app/
 
 ## Tech Stack
 - React
@@ -32,7 +32,10 @@ src/
 ├── index.css
 └── main.jsx
 
-Each component has its own folder with co-located styles for clarity and maintainability.
+csharp
+Copy code
+
+Each component is placed in its own folder with co-located styles for clarity and maintainability.
 
 ## Build & Verification
 The project was built locally using:
@@ -42,26 +45,24 @@ The build completed successfully without errors.
 The layout was manually verified on desktop, tablet, and mobile screen sizes.
 
 Deployment
-
 The project is deployed on Vercel using Git-based automatic deployment.
 Any push to the main branch triggers a new production build.
 
 Future Improvements
-
 Add a contact form using EmailJS without a backend
 
 Add subtle scroll-based animations using Intersection Observer
 
 Implement dark mode using CSS variables
 
+yaml
+Copy code
 
 ---
 
-## After pasting this README, do THIS
-
-Run these commands:
+## After fixing, do THIS
 
 ```bash
 git add README.md
-git commit -m "docs: add project README"
+git commit -m "docs: finalize project README"
 git push
